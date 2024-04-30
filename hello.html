@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tile><em>The Great HTML Empire of Shawn Li has begun - Huanxuan Li</em></tile>
+</head>
+
+<body style="background-color: lightyellow;">
+    <!--This will be the comments for html-->
+    <h1>Don't break this or I will break you </h1 >
+    <p style="background-color: lightgreen;" style="color: grey;" >Shawn is so cool</p>
+
+    <h3>Avaible hours</h3>
+        <table bgcolor="lightblue">
+            <tr bgcolor="lightgreen">
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+                <th width="100">Sunday</th>
+            </tr>
+            <tr bgcolor="yellow" align="center">
+                <td>idk</td>
+                <td>idk</td>
+                <td>idk</td>
+                <td>idk</td>
+                <td>idk</td>
+                <td>idk</td>
+                <td>idk</td>
+            </tr> 
+        </table>
+    <hr>
+    <h3>If you want to work on competitions, Hackathons, or just study together, fill out the following form</h3>
+    <h6><i>I am not gonna steal your info, truuuuust.</i></h6>
+    <form action="action_page.php" method="post">
+        <div>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Shawn">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Li">
+        </div> 
+
+        <br>
+
+        <div>
+            <label for="mail">Gmail</label>
+            <input type="email" id="mail" name="mail" placeholder="///////@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone #</label>
+            <input type="tel" id="phone" name="mail" placeholder="111-111-1111" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">Date of Birth</label>
+            <input type="date" id="bdate" name="bdate" placeholder="mm/dd/yyyy">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="number">Age</label>
+            <input type="number" id="number" name="number" placeholder="10" min="0" max="100 required">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Male</label>
+            <input type="radio" name="title" required>
+
+            <label>Female</label>
+            <input type="radio" name="title" required>
+
+            <label>Animal</label>
+            <input type="radio" name="title" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="education">education</label>
+            <select id="educaion" name="educaion" required>
+                <option>College+</option>
+                <option>High School</option>
+                <option>Middle School</option>
+                <option>nope</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="check">I will uphold academic and personal integrity in the TJ community</label>
+            <input type="checkbox" id="check" name="check" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Secret message?</label>
+            <input type="password" id="pass" name="pass" maxlength="50">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    <br>
+    <a href="https://github.com/4linote" target=_self tilte="My GitHub page" >
+        GitHub
+    </a>
+    <hr>
+    <a href="https://www.worldcubeassociation.org/persons/2022LISH01" target=_self title="My WCA page" >
+        WCA
+    </a>l
+    <hr>
+    <a href="https://www.youtube.com/channel/UC6dJahGRVFc4TVm_hIlTGlQ" target="_self" title="My YouTube page">
+        YouTube
+    </a>
+    <hr>
+    <a href="page2.html" target="_self" title="Page 2 testing">
+        page2
+    </a>
+    <hr>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <big>Big</big> text</p>
+    <p>This is <small>Small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <ins>innerted</ins> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <mark>marked</mark> text</p>
+
+    <div style="background-color: white;">
+        <p>
+            <span style="color:lightcoral">   Bless is the man</span>, who walks not in the counsel of the wicked,
+            nor stand in the line of sinners, nor sit in the seats of scoffers.
+            But he's delight is on the law of the Lord, and on his delight he mediates days and nights.
+            He is like a tree, planted by streams of water, that yields its fruit in its season,
+            in al that he does, he prospers. 
+            But the wicked are not like so, but are like chaff the winds drives away.
+            Therefor, the wicked will not stand in righteouess, nor the sinners in the congreation of the righteouness.
+            For the Lord knows the way of the righeouness, but the way of the sinner will perish.
+            -Psalms 1
+        </p>
+    </div>
+
+    <button style="background-color: lightcoral;" onclick="dosomething()"> click this to change something</button>
+
+    <p id="test"> I might not be him</p>
+ 
+    <script>
+        function dosomething(){
+            document.getElementById("test").innerHTML="nah I am him"
+        }
+    </script>
+
+    <h3>LIST</h3>
+
+    <h4>Unordered List</h4>
+    <ul> <!--<ul> creates bullet points-->
+        <li>Shawn is smart</li>
+        <li>Shawn is very smart</li>
+        <li>Shawn is the defintion of smart</li>
+            <ul>
+                <li>He is smart</li>
+            </ul>
+    </ul>
+
+    <h4>Ordered List</h4>
+    <ol> <!--<ol> creates number points-->
+        <li>Shawn is tall</li>
+        <li>Shawn is very tall</li>
+        <li>Shawn is the defintion of tall</li>
+            <ol>
+                <li>He is tall</li>
+            </ol>
+    </ol>
+
+    <h4>Description List</h4>
+    <dl> <!--<dl> creates definiton, dt is the term, and dd is teh defintion-->
+        <dt>Shawn</dt>
+        <dd><i>noun.</i>The definiton of greatness, often referred to the sigma male</dd>
+    </dl>
+
+    <h6>Wikipedia is him</h6>
+    <iframe src="https://www.wikipedia.org/" style="border:0" width="500" height="250"></iframe>
+    <h6>also page2</h6>
+    <iframe src="page2.html" style="border:0" width="500" height="50" ></iframe>
+
+    <h3>JEFFERSON RAHHHH</h3>
+    <p>MY GREAT SUPREME LEADER JEFFERSON RAHHHHHHH</p>
+    <a href="https://en.wikipedia.org/wiki/Thomas_Jefferson" target="_self" tilte="JEFFERSON">
+        <img src="tj.jpg" height="200" width="200" alt="Jefferson is him" title="he is so fine">
+    </a>
+    <p><em>shhhh...you can click the picture!</em></p>
+
+    <h3><em>RAHHHHH MY ANCESTORS ARE CALLING ME RAHHH</em ></h3>
+    <!--You could add "autoplay" right before src to make the music immediatly start playing-->
+    <!--You could add "muted" right before src to make the music muted-->
+    <!--You could add "loop" right before src to make the music continues UNTIL THE END OF EARTH-->
+    <audio controls src="Chinese New Year.mp3">
+
+    <!--In the case where the brosewer does not support a certain type of file, do this
+    <audio controls>
+        <source src ="Chinese New Year.mp3">
+        <source src ="Chinese New Year.wave:>
+        or just: This broswer does not support any html5 audio file"
+    </audio>
+    -->
+
+    <!--Say if you want to do a video - do this
+    <video src ="video name">
+    in the case where you want ti to be a background, do this
+    <video autoplay src="video name">
+    you could also add muted - loop and width and height
+    -->
+</body>
+</html>
